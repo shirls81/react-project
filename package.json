@@ -1,0 +1,27 @@
+{
+  "name": "react-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node init",
+    "watch": "nodemon init",
+    "dev": "bable-node app",
+    "devwatch": "nodemon --exec bable-node -- app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.6.0",
+    "babel-core": "^6.6.0",
+    "babel-polyfill": "^6.6.1",
+    "babel-preset-es2015": "^6.6.0",
+    "body-parser": "^1.15.0",
+    "config": "^1.19.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.0",
+    "nodemon": "^1.9.1"
+  }
+}
